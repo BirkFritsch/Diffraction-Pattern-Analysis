@@ -1,0 +1,5 @@
+2021-12-23 08:59:24,617 - CRITICAL - Operating Parameters are:
+{'show': True, 'test': False, 'show_test': False, 'reverse': False, 'filepath': '.', 'dfname': 'Github Test', 'filo_num': 1, 'tolerance': 0.05, 'skip': [], 'ring_deviation': None, 'scale': 10, 're_pattern': 'emd$', 'radius_range': (0.35400390625, 0.42724609375), 'average_range': (0, 2), 'filter_for_hough': True, 'test_interval': 100, 'median_for_polar': False, 'clahe_for_polar': False, 'jacobian_for_polar': False, 'int_thres': '0.1 median', 'min_vals_per_ring': 20, 'canny_use_quantiles': True, 'hough_rings': 1, 'canny_sigma': 1, 'dr_polar': 1, 'dt_polar': None, 'hough_radius_range': (0.2, 0.5), 'skip_ring': None, 'center_guess': None, 'use_last_center': True, 'peak_num': 5, 'background_voigt_num': 3, 'hkl_guess': (2, 2, 0), 'full_spectrum_fit': True, 'reuse_last_fit_params': True, 'export_polar': True, 'store': True}
+2021-12-23 08:59:24,760 - INFO - Reading the images.
+2021-12-23 08:59:25,514 - WARNING - _get_last_center: -1 not in indices
+2021-12-23 09:00:01,001 - INFO - Reading the images.
