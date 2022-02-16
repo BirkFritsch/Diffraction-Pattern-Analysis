@@ -1,5 +1,5 @@
 # Diffraction Pattern Analysis
-A tool to analyze the radius of contiouos electron diffraction ring patterns, e.g. for _in situ_ thermometry by paralell beam electron diffraction.
+A tool to analyze the radius of contiouos electron diffraction ring patterns, e.g. for _in situ_ thermometry by parallel beam electron diffraction.
 
 This is the source code for the following publication:
 
