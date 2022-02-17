@@ -15,7 +15,7 @@ If you find this script helpful, please cite our work:
 Birk Fritsch, Mingjian Wu, Andreas Hutzler, Dan Zhou, Ronald Spruit, Lilian Vogl,
 Johannes Will, H. Hugo Pérez Garza, Martin März, Michael P.M. Jank, Erdmann Spiecker:
 "Sub-Kelvin thermometry for evaluating the local temperature stability within in situ TEM gas cells",
-Ultramicroscopy, 2022
+Ultramicroscopy, 2022, 113494, https://doi.org/10.1016/j.ultramic.2022.113494
  
 
 @Dependencies:
@@ -4311,7 +4311,7 @@ def main(show = False,
     print('''
           If you find this script helpful, please cite our work:\n
           B. Fritsch et al., "Sub-Kelvin thermometry for evaluating the local temperature stability within in situ TEM gas cells",
-          Ultramicroscopy, 2022''')
+          Ultramicroscopy, 2022, 113494, https://doi.org/10.1016/j.ultramic.2022.113494''')
           
     logging.info('Finished')
     
