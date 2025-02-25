@@ -1004,10 +1004,7 @@ def df2excel(df_fitresults, name="test", newfile=True):
 
     # create file name as folder of cwd and with moment of execution (if newfile is truthy)
     export_name = reduce(lambda x, y: x + y, timestamp) + " " + name + ".xlsx"
-    # Create a Writer Excel object
-    writer = pd.ExcelWriter(export_name, engine="xlsxwriter")
-    # Convert the df to the Writer object
-    df_fitresults.to_excel(writer)
+    df_fitresults.to_excel(export_name)
 
     logging.info(f"Saved {export_name}.")
 
