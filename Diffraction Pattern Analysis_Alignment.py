@@ -1,8 +1,34 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed Jan 30 12:39:18 2019
+'This is without a doupt the worst code I've ever run
+-- But it runs' -- https://i.redd.it/6b7und8rs1v21.png
 
-@author: Fritsch
+This code is designed to run on diffraction patterns comprising continouos
+diffraction rings in fcc geometry with {222} as largest, fully captured
+diffraction signal. It has been developed for patterns with a resolution of
+1024x1024 px², 2048x2048 px², and 4096x4096 px², respectively, but may work on
+different pattern geometries, as well. A description of the general workflow
+can be found in the publication referenced below.
+
+If you find this script helpful, please cite our work:
+    
+Birk Fritsch, Mingjian Wu, Andreas Hutzler, Dan Zhou, Ronald Spruit, Lilian Vogl,
+Johannes Will, H. Hugo Pérez Garza, Martin März, Michael P.M. Jank, Erdmann Spiecker:
+"Sub-Kelvin thermometry for evaluating the local temperature stability within in situ TEM gas cells",
+Ultramicroscopy, 2022, 113494, https://doi.org/10.1016/j.ultramic.2022.113494
+ 
+
+@Dependencies:
+    python 3.8.20
+    numpy 1.24.4
+    matplotlib 3.7.3
+    hyperspy 2.2.0
+    scikit-image 0.21.0
+    scipy 1.10.1
+    pandas 2.0.3
+    xlsxwriter 3.2.0
+    openpyxl 3.1.5
+
+@author: Birk Fritsch
 """
 import logging, traceback
 import re
